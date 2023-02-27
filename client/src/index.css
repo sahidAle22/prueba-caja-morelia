@@ -1,0 +1,121 @@
+:root {
+    --primary: #e99401;
+    --black: #262626;
+    --white: #FFF;
+    --fuente-principal: 'Outfit', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: var(--fuente-principal);
+    line-height: 1.5;
+    background-color: #E6E6E6;
+    margin: 0;
+}
+
+[class*="contenedor"],
+main {
+    width: min(95%, 120rem);
+    margin: 3rem auto;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.card {
+    background-color: #CEF9F2;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card a {
+    border-radius: 5px;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.card .cuenta {
+    background-color: #AFC1D6;
+}
+
+.card .editar {
+    background-color: #AB92BF;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 5px;
+}
+
+.delete {
+    background-color: #A3333D;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--black);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #E15554;
+    cursor: pointer;
+}
+
+.navegacion {
+    background-color: var(--black);
+    padding: 5px 2px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #CEF9F2;
+    font-weight: 700;
+}
+
+h2 {
+    color: #F45B69;
+}
+
+input[type=text]{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.contenedorForm {
+    background-color: #CEF9F2;
+    padding: 30px 50px;
+    width: 50%;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 7px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2rem;
+}
